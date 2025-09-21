@@ -1,0 +1,157 @@
+
+# ============================================
+# PyCharm .gitignore для Python разработки
+# ============================================
+
+# 1. ФАЙЛЫ PyCharm IDE
+# ====================
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Файлы конфигурации (можно закомментировать, если нужно делиться настройками)
+# !.idea/codeStyles/
+# !.idea/inspectionProfiles/
+# !.idea/runConfigurations/
+
+# 2. ПАПКА ПРОЕКТА PyCharm
+# ========================
+__idea__/
+
+# 3. ВИРТУАЛЬНЫЕ ОКРУЖЕНИЯ Python
+# ================================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# 4. КЭШ И СКОМПИЛИРОВАННЫЕ ФАЙЛЫ Python
+# =======================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 5. УСТАНОВЛЕННЫЕ ПАКЕТЫ
+# =======================
+# Для pip
+pip-selfcheck.json
+
+# Для poetry
+poetry.lock
+
+# 6. ФАЙЛЫ НАСТРОЕК PyCharm
+# ========================
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# File-based project format
+*.iws
+
+# 7. ЛОГИ И ВРЕМЕННЫЕ ФАЙЛЫ
+# =========================
+# PyCharm logs
+.idea/**/log/
+
+# Local history
+.idea/**/localHistory/
+
+# 8. ФАЙЛЫ ЗАПУСКА И КОНФИГУРАЦИИ
+# ===============================
+# Run/Debug Configurations
+.idea/**/runConfigurations/
+
+# 9. ПРОФИЛИ ИНСПЕКЦИЙ
+# ====================
+.idea/**/inspectionProfiles/Project_Default.xml
+
+# 10. СТИЛИ КОДА
+# ==============
+.idea/**/codeStyles/codeStyleConfig.xml
+.idea/**/codeStyles/Project.xml
+
+# 11. ДЕБАГГЕР
+# ============
+.idea/**/debugger.xml
+
+# 12. ДИРЕКТОРИЯ ДЛЯ ТЕСТОВ PyCharm
+# ================================
+.idea/testRunner.xml
+
+# 13. ФАЙЛЫ РАЗВЕРТЫВАНИЯ
+# ======================
+.idea/**/deployment.xml
+
+# 14. ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ
+# ============================
+.idea/**/misc.xml
+.idea/**/modules.xml
+.idea/**/vcs.xml
+.idea/**/encodings.xml
+
+# 15. СИСТЕМНЫЕ ФАЙЛЫ
+# ===================
+.DS_Store
+Thumbs.db
+
+# 16. JUPYTER NOTEBOOK (если используется)
+# =======================================
+.ipynb_checkpoints/
+
+# 17. PACKAGING
+# =============
+build/
+dist/
+*.egg-info/
+*.egg
+*.tar.gz
+
+# 18. TESTING
+# ===========
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+
+# 19. ENVIRONMENT VARIABLES
+# =========================
+.env
+.env.local
+.env.production
+.env.development
+
+# 20. DATABASE
+# ============
+*.db
+*.sqlite3
+migrations/
+
+# ============================================
+# ПРИМЕЧАНИЕ:
+# Раскомментируйте нужные секции в зависимости от проекта
+# Некоторые файлы .idea/ могут быть полезны для команды
+# ============================================
